@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+body {
+    width: 428px;
+    height: 926px;
+}
+.from {
+    width: 428px;
+    height: 926px;
+    background-color: black;
+}
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 25px;
+    margin-top: 330px;
+}
+.text {
+    position: relative;
+    top: 298px;
+    left: 230px;
+    background-color: black;
+    border: none;
+}
+.c {
+    border-radius: 50%;
+    background-color: orangered;
+}
+.clear {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    background-color: #A5A5A5;
+    font-size: 400;
+}
+.share, .multiply, .minus, .plus ,.equally {
+    background-color: #F1A33B;
+}
+.one , .two , .three ,.four ,.five ,.six ,.seven ,.eight ,.nine ,.comma {
+    width: 88px;
+    height: 88px;
+    border-radius: 50px;
+    background-color: #333;
+    font-size: 400;
+}
+.zero {
+    width: 190px;
+    height: 88px;
+    border-radius: 50px;
+    background-color: #333;
+    font-size: 400;
+}
+button {
+    width: 88px;
+    height: 88px;
+    border-radius: 50%;
+    font-size: 600;
+    border: none;
+    background-color: #A5A5A5;
+}
+datalist
