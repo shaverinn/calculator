@@ -21,14 +21,22 @@ body {
     flex-wrap: wrap;
     align-items: center;
     gap: 25px;
-    margin-top: 330px;
+    margin-top: 230px;
+    font-size: 30px;
 }
 .text {
     position: relative;
-    top: 298px;
-    left: 230px;
+    top: 200px;
+    left: -300px;
     background-color: black;
     border: none;
+    direction: rtl;
+    color: white;
+    font-size: 60px;
+}
+.status {
+    position: relative;
+    top: 16px;
 }
 .c {
     border-radius: 50%;
@@ -39,24 +47,37 @@ body {
     height: 88px;
     border-radius: 50%;
     background-color: #A5A5A5;
-    font-size: 400;
+    font-size: 34px;
+    font-weight: 500;
+}
+.percent {
+    font-size: 34px;
+    font-weight: 500;
+}
+.minusplus {
+    font-size: 34px;
+    font-weight: 500;
 }
 .share, .multiply, .minus, .plus ,.equally {
     background-color: #F1A33B;
+    font-size: 34px;
+    font-weight: 500;
 }
 .one , .two , .three ,.four ,.five ,.six ,.seven ,.eight ,.nine ,.comma {
     width: 88px;
     height: 88px;
     border-radius: 50px;
     background-color: #333;
-    font-size: 400;
+    font-size: 34px;
+    font-weight: 500;
 }
 .zero {
     width: 200px;
     height: 88px;
     border-radius: 50px;
     background-color: #333;
-    font-size: 400;
+    font-size: 34px;
+    font-weight: 500;
 }
 button {
     width: 88px;
