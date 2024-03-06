@@ -15,9 +15,5 @@ buttons.addEventListener('click', (Event)=>{
         console.log('Число')
         tablo.value = context
         num1 = +tablo.value
-    } else if (operators.includes(context)){
-        console.log('оператор')
-    }else {
-        console.log ('не оператор и не число')
     }
 })
